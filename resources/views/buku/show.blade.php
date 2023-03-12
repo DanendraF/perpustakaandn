@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    Detail Buku
+                    <b>Detail Buku</b>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -18,16 +18,24 @@
                         </div>
                         <div class="col-md-9">
                             <div class="form-group">
-                                <label for="judul">Judul</label>
+                                <label for="judul">
+                                    <b>Judul</b>
+                                </label>
                                 <input type="text" class="form-control" id="judul" value="{{ $buku->judul }}" readonly>
                             </div>
-                            <div class="form-group">
-                                <label for="pengarang">Pengarang</label>
+
+                            <div class="form-group mt-3">
+                                <label for="pengarang">
+                                    <b>Pengarang</b>
+                                </label>
                                 <input type="text" class="form-control" id="pengarang" value="{{ $buku->pengarang }}"
                                     readonly>
                             </div>
-                            <div class="form-group">
-                                <label for="penerbit">Penerbit</label>
+
+                            <div class="form-group mt-3">
+                                <label for="penerbit">
+                                    <b>Penerbit</b>
+                                </label>
                                 <input type="text" class="form-control" id="penerbit" value="{{ $buku->penerbit }}"
                                     readonly>
                             </div>

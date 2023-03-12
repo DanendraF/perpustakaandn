@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    Update
+                    <b>Update</b>
                 </div>
                 <div class="card-body">
                     <!-- Display error messages if there are any -->
@@ -90,8 +90,11 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Update Buku</button>
-                        <a href="{{ route('buku.index') }}" class="btn btn-secondary">Kembali</a>
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Update Buku</button>
+                            <a href="{{ route('buku.index') }}" class="btn btn-secondary">Kembali</a>
+                        </div>
+
                     </form>
                 </div>
             </div>

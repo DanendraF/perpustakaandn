@@ -25,7 +25,7 @@
         </div>
 
         <div class="col-md-6 text-right">
-            <a href="{{ route('buku.create') }}" class="btn btn-primary float-right">Add Book</a>
+            <a href="{{ route('buku.create') }}" class="btn btn-warning float-right">Add Book</a>
         </div>
 
     </div>
@@ -57,8 +57,8 @@
                     @endif
                 </td>
                 <td>
-                    <a href="{{ route('buku.edit', $buku->id) }}" class="btn btn-primary btn-sm">Edit</a>
-                    <a href="{{ route('buku.show', $buku->id) }}" class="btn btn-info btn-sm">Show</a>
+                    <a href="{{ route('buku.edit', $buku->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="{{ route('buku.show', $buku->id) }}" class="btn btn-primary btn-sm">Show</a>
 
                     <form action="{{ route('buku.destroy', $buku->id) }}" method="POST" style="display: inline-block;">
                         @csrf
